@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400;700;900&family=Poppins:wght@100;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.maincontainer{
+    margin: 20px 40px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    margin-left: -43px;
+    background-color: #333;
+    position: relative;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 2rem;
+    font-size: x-large;
+    color: #ddd;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.cont{
+    width: 100%;
+    margin-top: 6rem;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.buttons button{
+    border-radius: 0.9rem;
+    box-shadow: 0 0 5px black;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+}
+.buttons button:hover{
+    scale:0.98;
+}
+.photo .pp:hover{
+    scale:0.98
+}
+.photo .po:hover{
+    scale:0.98
+}
+.photo .pi:hover{
+    scale:0.98
+}
+.photo .pu:hover{
+    scale:0.98
+}
+.photo .pa:hover{
+    scale:0.98
+}
+#navbarr {
+    background-color: #f1f1f1;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: -40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+  
+#navbarr a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+}
+  
+#navbarr a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.content {
+    padding: 16px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+.minicontainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.intro{
+    display: flex;
+}
+.heading, .cheading, .hheading, .aheading, .dheading,.nheading,.rheading,.reheading,.eheading,.pheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem ;
+    font-size: 35px;
+    position: left top;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    margin-top: 3rem;
+    gap: 1.5rem;
+}
+.text{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 18px;
+    padding-left: 1rem;
+    position: relative;
+    text-align: justify;
+    margin-right: 1.5rem
+}
+.ctext,.atext,.htext,.dtext,.ntext,.rtext,.retext,.etext,.ptext{
+    padding-top: 1rem;
+    font-size:  18px;
+    text-align: justify;
+}
+
+
+ol li{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: disc;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: none;
+}
